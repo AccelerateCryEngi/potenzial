@@ -1,3 +1,4 @@
+"""Задание 2"""
 with open('new_time.txt', encoding='utf-8') as f:  # потокобезопасно
     a = [x.split() for x in f]  # Список списков
 
